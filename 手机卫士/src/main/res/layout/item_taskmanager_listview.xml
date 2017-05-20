@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_taskmanager">
+
+    <ImageView
+        android:id="@+id/iv_taskmanager_item_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/iv_taskmanager_item_icon">
+        <TextView
+            android:id="@+id/tv_taskmanager_name_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="软件名称" />
+
+        <TextView
+            android:id="@+id/tv_taskmanager_local_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="软件大小"
+            android:layout_below="@id/tv_taskmanager_name_icon"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/ck_task_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

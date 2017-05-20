@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/tv_title_1"
+        style="@style/tv_title"
+        android:text="1.欢迎使用手机防盗"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_below="@id/tv_title_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您的智能防盗卫士"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:text="Sim卡变更报警"
+            android:textSize="18sp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:text="GPS报警"
+            android:textSize="18sp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:text="远程锁屏"
+            android:textSize="18sp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:text="远程清除数据"
+            android:textSize="18sp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_online"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_offline"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_invisible"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_busy"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_audio_away"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_audio_online"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_video_away"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_video_busy"/>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@android:drawable/presence_away"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

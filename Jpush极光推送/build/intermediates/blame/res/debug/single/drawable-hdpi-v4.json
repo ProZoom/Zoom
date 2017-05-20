@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/res/merged/debug/drawable-hdpi-v4/richpush_progressbar.xml",
+        "source": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/res/drawable-hdpi/richpush_progressbar.xml"
+    },
+    {
+        "merged": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/res/merged/debug/drawable-hdpi-v4/richpush_btn_selector.xml",
+        "source": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/res/drawable-hdpi/richpush_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/res/merged/debug/drawable-hdpi-v4/corners_bg.xml",
+        "source": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/res/drawable-hdpi/corners_bg.xml"
+    },
+    {
+        "merged": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/res/merged/debug/drawable-hdpi-v4/tiledstripes.xml",
+        "source": "/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/res/drawable-hdpi/tiledstripes.xml"
+    }
+]

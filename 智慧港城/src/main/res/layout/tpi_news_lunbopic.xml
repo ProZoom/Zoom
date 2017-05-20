@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_lunbo_pic">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <com.zoom.wise.view.InterceptScrollViewPager
+            android:id="@+id/vp_lunbo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+        </com.zoom.wise.view.InterceptScrollViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/translucent"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:id="@+id/tv_lunbo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片标题"
+                android:paddingLeft="15dp"
+                android:layout_centerVertical="true"/>
+            <LinearLayout
+                android:id="@+id/ll_lunbo_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="15dp"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

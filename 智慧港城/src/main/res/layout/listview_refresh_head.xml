@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_listview_refresh_head">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--状态描述和更新时间-->
+        <TextView
+            android:id="@+id/tv_listview_refresh_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="刷新状态"/>
+
+        <!--刷新头-->
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/tv_listview_refresh_head">
+            <ImageView
+                android:id="@+id/iv_listview_refresh_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@mipmap/common_listview_headview_red_arrow"/>
+            <ProgressBar
+                android:id="@+id/pb_listview_refresh_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

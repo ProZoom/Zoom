@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/tv_title_1"
+        style="@style/tv_title"
+        android:text="2.手机卡绑定"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定Sim卡： \n   下次重启手机，如果sim卡不一致，就会给安全号码发送信息"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<!--
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/list_button_lock_pressed"
+            android:layout_alignParentRight="true"/>-->
+        <Button
+            android:id="@+id/btn_bind_or_unbind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点击绑定／解绑Sim卡"/>
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</LinearLayout>

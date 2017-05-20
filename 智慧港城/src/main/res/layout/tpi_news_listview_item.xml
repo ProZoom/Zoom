@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="65dp">
+
+    <ImageView
+        android:id="@+id/iv_tpi_news_pic_item"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_tpi_news_title_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我我我我我我我我我我我我我我我我我我我我我我"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_weight="6"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tv_tpi_news_data_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:text="1993-01-16 12:10:45"/>
+            <ImageView
+                android:id="@+id/iv_tpi_news_num_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_news_comment_num"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

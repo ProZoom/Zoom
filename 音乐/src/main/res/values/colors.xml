@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#393a3a</color>
+    <color name="colorPrimaryDark">#29292a</color>
+    <color name="colorAccent">#b01449</color>
+    <color name="title_transparent_black">#56000000</color>
+
+    <color name="translucent">#89000000</color><!--半透明-->
+    <!-- musicplayer 颜色-->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="trans_white">#afffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="divider_color">#6fffffff</color>
+    <color name="bottom_color">#00000000</color>
+    <color name="top_color">#01589e</color>
+
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_light2">#aa33b5e5</color>
+    <color name="transparent">#00000000</color><!--透明-->
+    <color name="half_transparent">#3f000000</color>
+    <color name="grey_white">#fff0f0f0</color>
+    <color name="grey_dark_light">#55666666</color>
+    <color name="grey_dark">#ff454545</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="dialog_text_hint">#ffb0b0b0</color>
+    <color name="file_color_folder">#999999</color>
+    <color name="color_music">#d6415f</color>
+    <color name="file_color_other">#008156</color>
+
+
+</resources>

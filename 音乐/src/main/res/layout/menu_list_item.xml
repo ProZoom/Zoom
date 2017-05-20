@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:background="#424242"
+    >
+
+    <ImageView
+        android:id="@+id/menu_item_imageview"
+        android:src="@mipmap/icon_change_background"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/menu_item_textview"
+        android:textColor="#eee"
+        android:textSize="18sp"
+        android:text="设置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_gravity="top"
+        android:background="@mipmap/sliding_menu_line"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+
+</LinearLayout>

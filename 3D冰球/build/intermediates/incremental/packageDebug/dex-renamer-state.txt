@@ -1,0 +1,7 @@
+#Sat May 20 18:46:46 CST 2017
+base.0=/Users/liyang/AndroidStudioProjects/Zoom/3D冰球/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_51eef8d7102557497ebb9439922b9a1b998ea995
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/liyang/AndroidStudioProjects/Zoom/3D冰球/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d100e617c5fe2c3414de8f68355905221d6d97a4/classes.dex
+base.1=/Users/liyang/AndroidStudioProjects/Zoom/3D冰球/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d100e617c5fe2c3414de8f68355905221d6d97a4
+file.0=/Users/liyang/AndroidStudioProjects/Zoom/3D冰球/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_51eef8d7102557497ebb9439922b9a1b998ea995/classes.dex

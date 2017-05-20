@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdvancedControls/AdvancedControls.iml" filepath="$PROJECT_DIR$/AdvancedControls/AdvancedControls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidVideoCache/AndroidVideoCache.iml" filepath="$PROJECT_DIR$/AndroidVideoCache/AndroidVideoCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidVideoCacheSample/AndroidVideoCacheSample.iml" filepath="$PROJECT_DIR$/AndroidVideoCacheSample/AndroidVideoCacheSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android学习手册/Android学习手册.iml" filepath="$PROJECT_DIR$/Android学习手册/Android学习手册.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jpush极光推送/Jpush极光推送.iml" filepath="$PROJECT_DIR$/Jpush极光推送/Jpush极光推送.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zoom.iml" filepath="$PROJECT_DIR$/Zoom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenuLibrary/slidingMenuLibrary.iml" filepath="$PROJECT_DIR$/slidingMenuLibrary/slidingMenuLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerIndicator/viewPagerIndicator.iml" filepath="$PROJECT_DIR$/viewPagerIndicator/viewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils-2.6/xutils-2.6.iml" filepath="$PROJECT_DIR$/xutils-2.6/xutils-2.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils-3/xutils-3.iml" filepath="$PROJECT_DIR$/xutils-3/xutils-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/手机卫士/手机卫士.iml" filepath="$PROJECT_DIR$/手机卫士/手机卫士.iml" />
+      <module fileurl="file://$PROJECT_DIR$/抢红包/抢红包.iml" filepath="$PROJECT_DIR$/抢红包/抢红包.iml" />
+      <module fileurl="file://$PROJECT_DIR$/智慧港城/智慧港城.iml" filepath="$PROJECT_DIR$/智慧港城/智慧港城.iml" />
+      <module fileurl="file://$PROJECT_DIR$/音乐/音乐.iml" filepath="$PROJECT_DIR$/音乐/音乐.iml" />
+    </modules>
+  </component>
+</project>

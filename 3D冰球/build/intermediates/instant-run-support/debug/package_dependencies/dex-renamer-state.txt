@@ -1,0 +1,4 @@
+#Sat May 20 18:46:45 CST 2017
+base.0=/Users/liyang/AndroidStudioProjects/Zoom/3D冰球/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_0bfa3c23316cfb187a6fefac76ee9d285b05a45b
+renamed.0=classes.dex
+file.0=/Users/liyang/AndroidStudioProjects/Zoom/3D冰球/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_0bfa3c23316cfb187a6fefac76ee9d285b05a45b/classes.dex

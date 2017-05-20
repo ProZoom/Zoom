@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">音乐播放器</string>
+
+    <!--右侧边栏-->
+    <string name="scan">Scan</string>
+    <string name="repeat_mode">列表循环</string>
+    <string name="change_bg">换背景</string>
+    <string name="alarm">睡眠</string>
+    <string name="settings">设置</string>
+    <string name="exit">退出</string>
+    <string name="my_music">My Music</string>
+
+    <string name="loved_one">My Favorites</string>
+    <string name="direct">Folder</string>
+    <string name="artists">Artists</string>
+    <string name="albums">ALbums</string>
+    <string name="network_music">Online</string>
+    <string name="title_activity_folders">FoldersActivity</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!--启动界面消黑屏方案-->
+    <style name="Theme.Start" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/splash_shape</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!--侧栏的标题栏-->
+    <style
+        name="SlidingMenu.TextView.Title"
+        parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="white_small_tv_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

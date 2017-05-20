@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">音乐播放器</string>
+    <string name="Copyright">Copyright ©Zoom. All Rights Reserved</string>
+    <!--右侧边栏-->
+    <string name="scan">扫描歌曲</string>
+    <string name="repeat_mode">列表循环</string>
+    <string name="change_bg">换背景</string>
+    <string name="alarm">睡眠</string>
+    <string name="settings">设置</string>
+    <string name="exit">退出</string>
+    <string name="my_music">我的音乐</string>
+
+    <string name="loved_one">我的最爱</string>
+    <string name="direct">文件夹</string>
+    <string name="artists">歌手</string>
+    <string name="albums">专辑</string>
+    <string name="network_music">网络音乐</string>
+    <string name="title_activity_folders">FoldersActivity</string>
+
+    <string name="appwidget_text">i love you</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>

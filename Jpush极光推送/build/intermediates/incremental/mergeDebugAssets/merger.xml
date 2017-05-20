@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/assets"/><source path="/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build-types/debug/assets"/></dataSet></merger>

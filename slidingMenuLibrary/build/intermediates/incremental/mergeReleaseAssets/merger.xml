@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/liyang/AndroidStudioProjects/Zoom/slidingMenuLibrary/assets"/><source path="/Users/liyang/AndroidStudioProjects/Zoom/slidingMenuLibrary/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/liyang/AndroidStudioProjects/Zoom/slidingMenuLibrary/src/release/assets"/></dataSet></merger>

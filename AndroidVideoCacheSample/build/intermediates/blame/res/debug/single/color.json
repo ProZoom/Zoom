@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/liyang/AndroidStudioProjects/Zoom/AndroidVideoCacheSample/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/Users/liyang/AndroidStudioProjects/Zoom/AndroidVideoCacheSample/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.2-SNAPSHOT/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/liyang/AndroidStudioProjects/Zoom/AndroidVideoCacheSample/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/liyang/AndroidStudioProjects/Zoom/AndroidVideoCacheSample/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.2-SNAPSHOT/res/color/vpi__dark_theme.xml"
+    }
+]

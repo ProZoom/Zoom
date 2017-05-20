@@ -1,0 +1,7 @@
+#Sat May 20 19:01:57 CST 2017
+base.0=/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/transforms/dex/debug/folders/1000/2/jpush-android_v3.0.5_1f1952e06fc45a946eab9a54f7450c513155c241
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/transforms/dex/debug/folders/1000/2/jcore-android_v1.1.2_0901d44e3e3b79a9a5d81f77acab30979a1b1b61/classes.dex
+base.1=/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/transforms/dex/debug/folders/1000/2/jcore-android_v1.1.2_0901d44e3e3b79a9a5d81f77acab30979a1b1b61
+file.0=/Users/liyang/AndroidStudioProjects/Zoom/Jpush极光推送/build/intermediates/transforms/dex/debug/folders/1000/2/jpush-android_v3.0.5_1f1952e06fc45a946eab9a54f7450c513155c241/classes.dex

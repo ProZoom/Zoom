@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zoom.wise.view.NoScrollViewPage
+        android:id="@+id/vp_main_content_pages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.zoom.wise.view.NoScrollViewPage>
+
+    <RadioGroup
+        android:id="@+id/rg_content_radios"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_main_content_home"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_main_content_newscenter"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+
+            android:text="新闻" />
+
+        <RadioButton
+            android:id="@+id/rb_main_content_smartservices"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+
+            android:text="智慧" />
+
+        <RadioButton
+            android:id="@+id/rb_main_content_gov"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+
+            android:text="政务" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_ba">
+
+        <Button
+            android:id="@+id/btn_Below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="第一层" />
+    </RelativeLayout>
+
+    <com.example.advancedcontrols.ui.PullDoorView
+        android:id="@+id/myImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" >
+
+        <Button
+            android:id="@+id/btn_above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/colorAccent"
+            android:text="第二层" />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="上滑可以进入首页"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+    </com.example.advancedcontrols.ui.PullDoorView>
+
+</FrameLayout>

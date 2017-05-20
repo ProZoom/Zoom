@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AdvancedControls" />
+            <option value="$PROJECT_DIR$/AndroidVideoCache" />
+            <option value="$PROJECT_DIR$/AndroidVideoCacheSample" />
+            <option value="$PROJECT_DIR$/Android学习手册" />
+            <option value="$PROJECT_DIR$/Jpush极光推送" />
+            <option value="$PROJECT_DIR$/slidingMenuLibrary" />
+            <option value="$PROJECT_DIR$/viewPagerIndicator" />
+            <option value="$PROJECT_DIR$/xutils-2.6" />
+            <option value="$PROJECT_DIR$/xutils-3" />
+            <option value="$PROJECT_DIR$/手机卫士" />
+            <option value="$PROJECT_DIR$/抢红包" />
+            <option value="$PROJECT_DIR$/智慧港城" />
+            <option value="$PROJECT_DIR$/音乐" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

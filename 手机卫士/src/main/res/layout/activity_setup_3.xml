@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue">
+
+    <TextView
+        android:id="@+id/tv_title_1"
+        style="@style/tv_title"
+        android:text="3.设置安全号码"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sim卡如果发生变化：\n报警短信就会发给安全号码！"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_safe_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:hint="请输入安全号码"/>
+        <ImageView
+            android:id="@+id/iv_contacts"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@mipmap/contacts"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_select_safe_phone"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从通讯录里选择安全号码"/>
+
+</LinearLayout>

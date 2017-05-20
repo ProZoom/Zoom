@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main_content_pages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+
+    <RadioGroup
+        android:id="@+id/rg_content_radios"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_main_content_home"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/white"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_main_content_newscenter"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/black"
+            android:text="新闻" />
+
+        <RadioButton
+            android:id="@+id/rb_main_content_smartservices"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/black"
+            android:text="智慧" />
+
+        <RadioButton
+            android:id="@+id/rb_main_content_gov"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/black"
+            android:text="政务" />
+        <RadioButton
+            android:id="@+id/rb_main_content_setting"
+            style="@style/RadioButtonStyle"
+            android:textColor="@color/black"
+            android:text="设置" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>
